@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             vercel 배포 테스트
           </li>
+          <div className="flex justify-center">
+            <Button>Click me</Button>
+          </div>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
