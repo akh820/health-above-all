@@ -18,7 +18,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
         {/* iOS 홈 화면에 추가될 때 표시되는 앱 이름 */}
-        <meta name="apple-mobile-web-app-title" content="HealthApp" />
+        <meta name="apple-mobile-web-app-title" content="Health Above All" />
         
         {/* 전화번호 자동 링크 생성 비활성화 (모바일에서 번호를 터치해도 전화 안 걸림) */}
         <meta name="format-detection" content="telephone=no" />
