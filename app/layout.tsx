@@ -1,4 +1,6 @@
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export default function RootLayout({
   children,
@@ -48,8 +50,12 @@ export default function RootLayout({
         {/* iOS 홈 화면 아이콘 설정 - iPhone/iPad에서 홈 화면에 추가할 때 사용되는 아이콘 */}
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
       </head>
-      <body>
-        {children}
+      <body className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )

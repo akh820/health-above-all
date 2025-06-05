@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- TailWindCss 기준으로 알려줄것
+- Css 스타일 제시시 어떤 역할을 하는지 아래 예시와 같이 알려줄것 
+<header className="
+  w-full          // width: 100% (전체 너비)
+  bg-blue-50      // background-color: 연한 파랑
+  shadow-sm       // 연한 그림자
+  border-b        // 하단 테두리
+  border-gray-200 // 테두리 색상: 연한 회색
+"> 
